@@ -6,7 +6,7 @@ const tasks = (state = initialState, action) => {
     if (action.type === 'TASKS_SET_TASKS') {
         return {
             ...state,
-            tasks: action.payload
+            tasks: action.payload.message ? '' : action.payload
         }
 
     }

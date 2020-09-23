@@ -10,7 +10,9 @@
     "app": "concurrently \"npm run server\" \"npm run client\""
   },
   "nodemonConfig": {
-    "ignore": ["*.json"]
+    "ignore": [
+      "*.json"
+    ]
   },
   "keywords": [],
   "author": "",
